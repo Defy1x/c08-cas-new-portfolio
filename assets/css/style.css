@@ -271,9 +271,7 @@ hr::after {
 }
 
 #profile p{
-  padding-left: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 50px;
 }
 
 #work{
@@ -327,7 +325,7 @@ hr::after {
 
 @media screen and (max-width: 768px) {
   .container{
-    width: 300px;
+    width: 350px;
   }
 	header {
 	position: relative;
@@ -387,7 +385,7 @@ hr::after {
 
 @media screen and (max-width: 500px) {
   .container{
-    width: 350px;
+    width: 300px;
   }
   header {
   position: relative;
