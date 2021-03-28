@@ -36,11 +36,11 @@ If you are opting out of career services, this is _still a required assignment_.
 
 Your updated portfolio should:
 
-1. Display your full name, email, and phone number (need to do)
+1. Display your full name, email, and phone number (Done)
 
 2. Have links to your GitHub profile and LinkedIn profile (DONE)
 
-3. Have a link to a downloadable PDF of your resume (need to do)
+3. Have a link to a downloadable PDF of your resume (DONE)
 
 4. Display at least 2 examples of student work from either deployed projects or homeworks. For each project, make sure you have the following: (need to do)
 
@@ -106,7 +106,7 @@ Your GitHub profile must contain at least the following items:
 
 9. Commit history. Every pinned repository should have at least 20 commits. DONE
 
-### 3. Updated Resume
+### 3. Updated Resume DONE
 
 💁 Need help building a resume? Check out the [Career Services milestone resources](https://mycareerspot.org/resume).
 
