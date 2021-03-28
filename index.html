@@ -2,25 +2,148 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <title>Cas portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!--yay I added a fav icon!----->
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Libre+Franklin:300&display=swap" rel="stylesheet">
+    <title>Cas McDonald Web Developer Portfolio Site</title>
 </head>
 <body>
-    <div class="jumbotron">
-        <div class="container">
-            <!-- Name -->
-            <h1>Hi my name is Cas</h1>
-            <!-- location -->
-            <h3>I am from New York</h3>
-            <!-- Bio -->
-            <h3>A little bit about me: </h3>
-            <!-- Linkedin url -->
-            <p>My Linkedin is: </p>
-            <!-- Github username -->
-            <p>My Github is:</p>
-        </div>
-    </div>
-</body>
+  <div class="container">
+    <header>
+      <h1>Cas McDonald</h1>
+      <span>UX/UI Designer + Front-End Engineer</span>
+      <nav>
+        <ul>
+          <!--#top automatically brings user to the top of the window-->
+          <li><a href="#top">Profile</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <section id="profile">
+          <h2>Profile.</h2>
+          <figure>
+            <img src="assets/images/cas.jpg" alt="Cas Profile Photo"></img>
+          </figure>
+          <p><strong>Casandra McDonald</strong> is a NN/g Master Certified UX / UI Designer and Front-End Web Engineer, with over 10+ years of experience based in New York City. Her goal is to help business grow by designing and developing web and native applications. She currently runs her own consulting business as a designer and developer for clients based in NYC, specializing in the finance and e-commerce industries.</p>
+          <p>As a <strong>UX Designer</strong>, I believe in user-centric design, and enforce those principles even throughout the design process. I follow the double diamond framework when starting any UX project: Discover, Design, Develop, Deliver. I work with companies on business strategy, perform competitive analysis, conduct user interviews, contextual inquiries, and usability testing. I also develop user personas, user flows, and feature prioritization with MVP focus. I possess a keen understanding of market dynamics that impact the successful launch of applications. </p>
+          <p>As a <strong>UI Designer</strong>, I follow all up to date HCI and W3C guidelines for accessibly on desktop and mobile applications. I would describe my work as clean, beautiful, and asthetically pleasing. I conform to a "less is more" methodology and apply that approach to reduce cognitive friction throughout all of my design deliverables. I create sketches and low, mid, and high fidelity mockups using Adobe XD and am well-versed in creating extremely detailed interactive prototypes with custom animations using XD and Principle. I frequently work with development teams to ensure pixel perfect asset delivery and create follow up documentation and style guides. </p>
+          <p>As a <strong>Front-End Engineer</strong>, my goal is to write clean, semantic, accessible code. I work with HTML5, CSS3, JavaScript, and jQuery and PHP. I have hand coded over 200+ responsive websites and have experience building apps and APIs with JS, Firebase, Node.js, Express and Heroku. I am currently in school at Columbia University Software Engineering Bootcamp until Summer 2021 to expand my existing skillset in the Full Stack Development realm. </p>
+        </section>
+        <hr>
+        <section id="work">
+          <h2>Featured Work.</h2>
+          <div class="first-featured-work">
+            <figure>
+              <a href="https://www.s3partners.com" target="_blank"><img src="./assets/images/first-work.png" alt="First Featured Work Finance Application"></img></a>
+            </figure>
+            <p>Fintech app and website designed and developed in HTML/CSS/JS and Angular.</p>
+          </div>
+          <div class="carousel">
+            <div class="carousel-item">
+              <figure>
+                <a href="https://uxfol.io/project/040d8f48/Websim-iOS-App" target="_blank"> <img src="./assets/images/work-1.jpg" alt="Second Featured Work Quant Finance App"></a>
+              </figure>
+              <p>Quantative Finance UX/UI case study for #1 Quant app launched on iOS store.</p>
+            </div>
+            <div class="carousel-item">
+              <figure>
+                <a href="https://uxfol.io/project/045f5511/Jolt" target="_blank"> <img src="./assets/images/work-2.jpg" alt="Third Feature Work Music Mood Selector App"></a>
+              </figure>
+              <p>Music Mood Selector UX/UI case study designed as an app plug-in to Spotify.</p>
+            </div>
+            <div class="carousel-item">
+              <figure>
+                <a href="https://uxfol.io/project/0489b407/Thrive" target="_blank"><img src="./assets/images/work-3.jpg" alt="Fourth Featured Work Social Gaming App"></a>
+              </figure>
+              <p>Social Gaming App UX/UI case study designed for the React Framework.</p>
+          </div>
+       </div>
+       </section>
+       <hr>
+       <section id="resume">
+         <h2>Resume.</h2>
+         <div class="resume-img-container">
+           <figure>
+             <img src="./assets/images/cas-resume-front.png" alt="Front of Cas' Resume">
+           </figure>
+           <figure>
+             <img src="./assets/images/cas-resume-back.png" alt="Back of Cas' Resume">
+           </figure>
+         </div>
+         <p>Click the button to download my resume! :)</p>
+         <button>
+           <a id="download" href="https://storage.googleapis.com/uxfolio/5cd9ddd5a1bc170004222e60/cv/Casandra-McDonald-Resume_efO.pdf" target="_blank">Download my resume</a>
+         </button>
+       </section>
+        <hr>
+      <section id="contact">
+        <h2>Contact.</h2>
+        <p>Fill out the form to get in touch.</p>
+        <!--This is not a working form-->
+        <div class="contact-form">
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="name" type="text" class="validate">
+                  <label for="first_name">Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <textarea id="textarea" class="materialize-textarea" data-length="120"></textarea>
+                    <label for="textarea">Message</label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+           </div>
+          <!-- END:this is not a working form-->
+            <nav>
+             <ul class="social">
+               <li id="fa-no-padding"><a class="fontawesome" href="https://www.linkedin.com/in/casmcdonald/" target="_blank"></li>
+                 <!--inline styling needed for this library to work-->
+                <span style="font-size: 3em; color: red;">
+                   <i class="fab fa-linkedin-in"></i>
+                 </span></a>
+               <li><a class="fontawesome" href="https://github.com/defy1x" target="_blank"></li>
+                 <!--inline styling needed for this library to work-->
+                 <span style="font-size: 3em; color: red;">
+                    <i class="fab fa-github"></i>
+              </span></a>
+               <li><a class="fontawesome" href="https://dribbble.com/casmcdonald" target="_blank"></li>
+                 <!--inline styling needed for this library to work-->
+                 <span style="font-size: 3em; color: red;">
+                   <i class="fab fa-dribbble"></i>
+                </span></a>
+              <li><a class="fontawesome" href="https://uxfol.io/casmcdonald" target="_blank"></li>
+                <!--inline styling needed for this library to work-->
+                 <span style="font-size: 3em; color: red;">
+                  <i class="fab fa-fort-awesome"></i>
+                 </span></a>
+              </ul>
+            </nav>
+        </section>
+     <footer>
+       <p>&copy; Copyright 2021 Cas McDonald</p>
+     </footer>
+    </main>
+    <!--amazing font library that uses icons-->
+   <script src="https://kit.fontawesome.com/42a66a0b61.js"></script>
+  </body>
+</div>
 </html>
