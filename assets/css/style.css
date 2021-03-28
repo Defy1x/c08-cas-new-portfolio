@@ -332,6 +332,9 @@ hr::after {
   flex-wrap: wrap;
   width: 450px;
   }
+  p{
+    text-align: center;
+  }
   main{
     padding-top: 0px;
   }
@@ -343,9 +346,6 @@ hr::after {
   }
   .contact-form{
     display:none;
-  }
-  .first-featured-work{
-    width: 500px;
   }
   .first-featured-work img{
     height: 350px;
