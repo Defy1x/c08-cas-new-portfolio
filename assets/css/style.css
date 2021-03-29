@@ -271,7 +271,10 @@ hr::after {
 }
 
 #profile p{
-  padding: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 50px;
 }
 
 #work{
@@ -350,6 +353,10 @@ hr::after {
   .first-featured-work img{
     height: 350px;
   }
+  .first-featured-work p{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .carousel{
     display: flex;
     flex-direction: column;
@@ -402,6 +409,10 @@ hr::after {
   }
   .first-featured-work img{
     height: 200px;
+  }
+  .first-featured-work p{
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .carousel-item{
     width: 350px;
