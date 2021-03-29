@@ -354,8 +354,8 @@ hr::after {
     height: 350px;
   }
   .first-featured-work p{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .carousel{
     display: flex;
@@ -411,8 +411,8 @@ hr::after {
     height: 200px;
   }
   .first-featured-work p{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .carousel-item{
     width: 350px;
